@@ -12,8 +12,7 @@ module.exports = {
     ) {
       context.options.plugins.sauce.browsers = [
         // desktop
-        'Windows 10/chrome@54',
-        'Windows 10/firefox@50',
+        // Chrome and Firefox are tested locally with Selenium WebDriver (see .travis.yml)
         'Windows 10/microsoftedge@13',
         'Windows 10/internet explorer@11',
         'OS X 10.11/safari@9.0',
